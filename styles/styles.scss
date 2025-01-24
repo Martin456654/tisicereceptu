@@ -1,0 +1,153 @@
+@import "base/reset_and_setting";
+@import "layout/header";
+@import "layout/footer";
+@import "components/components";
+
+.tips_for_now{
+    background: #fff;
+    padding: 70px 0;
+    
+    text-align: center;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+
+        .headings{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            gap: 3px;
+
+            .heading{
+                font-size: 50px;
+                font-weight: 600;
+            }
+            
+            .subheading{
+                font-size: 20px;
+                color: #8B8B8B;
+                font-weight: 500;
+            }
+        }
+
+        .cards-slider{
+            width: 100%;
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            .col{
+                width: 100%;
+                height: 275px;
+            }
+        }
+    }
+}
+
+.control_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    &.pagination{
+        button{
+            color: #000 !important;
+            font-size: 17px;
+            font-weight: 700;
+        }
+
+        i{
+            font-size: 23px !important;
+        }
+    }
+
+    button{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+
+        font-size: 33px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.prev{
+            background: #E1E1E1;
+            color: #808080;
+        }
+        &.next{
+            background: #E8E8FD;
+            color: #6E6EEA;
+
+            box-shadow: 0 7px 21px rgba(110, 110, 234, 0.46);
+        }
+    }
+}
+
+.recipes{
+    padding: 70px 0;      
+}
+
+.main-first-content-section{
+    padding: 70px 0;
+    background: #fff;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .main-col{
+            width: calc(70% - 10px);
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .secondary-col{
+            width: calc(30% - 10px);
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+.main-second-content-section{
+    padding: 70px 0;
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .main-col{
+            width: calc(70% - 10px);
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .secondary-col{
+            width: calc(30% - 10px);
+
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+}
+
+@import "responsivity/responsivity";

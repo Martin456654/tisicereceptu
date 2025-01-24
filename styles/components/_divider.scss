@@ -1,0 +1,19 @@
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+  
+    &-line {
+        flex: 1;
+        height: 2px;
+        background-color: #cccccc; // Výchozí barva čáry
+    }
+  
+    &-text {
+        padding: 0 10px;
+        font-size: 17px;
+        font-weight: 600;
+        color: #cccccc; // Výchozí barva textu
+    }
+}

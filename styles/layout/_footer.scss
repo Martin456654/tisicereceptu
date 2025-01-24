@@ -1,0 +1,97 @@
+.footer{
+    background: #E8E8FD;
+
+    .container{
+        .footer-content{
+            padding-top: 50px;
+            padding-bottom: 25px;
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: space-between;
+
+            .footer-logo-and-search{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .logo{
+                    width: 300px;
+                }
+
+                .search-bar{
+                    background: #fff;
+                    padding: 12px 15px;
+                    border-radius: 50px;
+
+                    display: flex;
+                    flex-direction: row;
+                    gap: 10px;
+                    align-items: center;
+
+                    input{
+                        font-size: 18px;
+
+                        border: none;
+                        outline: none;
+
+                        &::placeholder{
+                            color: #A1A1A1;
+                            font-weight: 700;
+                        }
+                    }
+
+                    button{
+                        border: none;
+                        outline: none;
+                        background: none;
+
+                        i{ 
+                            color: #A1A1A1 !important;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+            
+            .links{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                gap: 30px;
+
+                margin: 20px 0;
+
+                ul{
+                    list-style: none;
+
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+
+                    li{
+                        a{
+                            text-transform: uppercase;
+                            color: #5F5F5F;
+                            font-size: 18px;
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-bottom{
+            padding: 30px 0;
+            border-top: 5px solid #6E6EEA;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            font-size: 17px;
+            font-weight: 600;
+        }
+    }
+}
